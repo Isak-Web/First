@@ -5,24 +5,25 @@ text-decoration: none;
 color: black;
 }
 
-body{
-background: #DEF2F1;
-}
+
+
 
 h1{
 font-family: 'lobster', cursive;
 font-size: 70px;
 text-align: center;
+color: #800080;
 }
 
 h2{
 font-size: 40px;
 text-align: center;
 font-family: 'Bitter', serif;
+color: #800080;
 }
 
 a{
-color: black;
+color: #000;
 }
 
 #image{
@@ -42,11 +43,13 @@ text-transform: uppercase;
 
 h3{
 font-family: 'Bitter', serif;
+color: #800080;
 }
 
 p, li{
 text-align: justify;
 font-family: 'Bitter', serif;
+color: #800080;
 }
 
 #posters {
@@ -62,6 +65,7 @@ margin: 0 auto;
 .poster-wrapper {
 margin: auto;
 padding-top: 7vh;
+color: #800080;
 }
 
 .poster {
