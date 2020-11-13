@@ -1,0 +1,90 @@
+:root { /*Skapar root och matchar senare med dokumentets root element*/
+
+  --blue: #1e90ff;
+
+  --white: #ffffff;
+
+}
+
+html {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 125%;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--blue);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--blue);
+}
+
+main {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: 3em auto 0 auto;
+  padding: 1.5em;
+  background-color: #fff;
+  border: 2px solid var(--blue);
+  border-radius: 8px;
+}
+
+.month-indicator {
+  color: var(--blue);
+  text-align: center;
+  font-weight: 500;
+}
+
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day-of-week {
+  margin-top: 1.25em;
+}
+
+.day-of-week > * {
+  font-size: 0.7em;
+  color: var(--blue);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+/* Dates */
+.date-grid {
+  margin-top: 0.5em;
+}
+
+/* Positioning the first day */
+.date-grid button:first-child {
+  grid-column: 7;
+  grid-row: ;
+}
+
+.date-grid button {
+  position: relative;
+  border: 0;
+  width: 4.5ch;
+  height: 4.5ch;
+  border-radius: 50%;
+  background-color: transparent;
+  color: var(--blue);
+}
+
+.date-grid button:hover,
+.date-grid button:focus {
+  outline: none;
+  background-color: var(--blue);
+  color: var(--blue);
+}
+
+.date-grid button:active,
+.date-grid button.is-selected {
+  background-color: var(--white);
+  color: var(--white;
+}
