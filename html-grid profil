@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/x-icon" href="https://c0.klipartz.com/pngpicture/63/330/sticker-png-death-star-computer-icons-star-wars-logo-star-icon-computer-icons-svg-star-wars.png">
 
 <meta charset="utf-8">
   <meta name="description" content="Assbook">
@@ -29,6 +29,7 @@
 
 
 
+
   </div>
 
 </div>
@@ -52,10 +53,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat pharetra 
     <div class="itemd"><img src="https://i.imgur.com/XTjA8c4.jpg" alt="Zeppelin" width="auto" height="100px"></div>
   </div>
 
-
-
- <!-- <p style="text-align:center;">For the most part i have tried to make diffrent types of grids to learn how to make the fields in different ways</p> -->
-
+  <div class="footer">
+    <div class="foot">
+     <p  class="P1"> ―Din Djarin on his foundling, Grogu:
+     </p>
+     <p class="para">
+      "Moff Gideon, you have something I want. You may think you have some idea what you're in possession of,
+       but you do not. Soon, he will be back with me. He means more to me than you will ever know."
+     </p>
+    </div>
+    <div class="foot">
+      <p  class="P1"> -Jon Favreau:
+      </p>
+      <p class="para">
+      "It's like after the Roman Empire falls, or when you don't
+      have a centralized shogun in Japan—and, of course, the Old West,
+      when there wasn't any government in the areas that had not yet been settled."
+    </div>
+    </div>
 
 </body>
 </html>
