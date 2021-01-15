@@ -1,0 +1,277 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #f432;
+  background-image: url("https://i.imgur.com/A8BGBrV.jpeg");
+  background-position: center;
+   background-size: cover;
+  padding: 10px;()  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  border-radius: 4px;
+}
+
+  .grid-item {
+  background-color: #DDDDDD;
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.h1 {
+  color: #DDDDDD;
+}
+
+.background {
+grid-column: 1 / span auto;
+grid-row:1 / span auto;
+
+  margin: auto;
+  max-width: auto;
+
+position: absolute;
+
+z-index: 20;
+}
+
+.item1 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: auto;
+  grid-row: 2;
+  border-radius: 12px;
+  border: 3px solid #FF4136;
+}
+
+.item1:hover {
+  background-color: #001f3f;
+  color: white;
+}
+
+.item2 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: auto;
+  grid-row: 2;
+  border-radius: 12px;
+  border: 3px solid #FF4136;
+}
+
+.item2:hover {
+  background-color: #001f3f;
+  color: white;
+}
+
+
+.item3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: auto;
+  grid-row: 2;
+  border-radius: 12px;
+  border: 3px solid #FF4136;
+}
+
+.item3:hover {
+  background-color: #001f3f;
+  color: white;
+}
+
+
+
+.Profile {
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 50%;
+  z-index: 100;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  cursor:pointer;
+    border: 3px solid #FF4136;
+}
+
+.Inlägg {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column:  auto;
+  grid-row: 3;
+  border-radius: 12px;
+  border: 3px solid #FF4136;
+}
+
+.Inlägg:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.om {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column:  auto;
+  grid-row: 3;
+  border-radius: 12px;
+  border: 3px solid #FF4136;
+}
+
+.om:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.Vänner {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column:  auto;
+  grid-row: 3;
+  border-radius: 12px;
+  border: 3px solid #FF4136;
+}
+
+.Vänner:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.grid-container :first-child {
+  grid-column: ;
+  grid-row: ;
+}
+
+.Grid-containerL {
+  display: grid;
+  padding: 10px;()  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  height: 500px;
+  width: 300px;
+  padding-left: 30px;
+  padding-top: 10px;
+  gap: 10px;
+  grid-template-areas:
+    ". . a a b"
+    ". . a a b"
+    ". . a a b"
+    ". . a a b"
+    ". . c c d"
+    ;
+  align-content:;
+  justify-content: end;
+}
+
+.iteme {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5px;
+}
+.itemf {
+  grid-area: b;
+  align-self: center;
+  justify-self: center;
+  padding: 5px;
+}
+.itemg {
+  grid-area: c;
+  align-self: center;
+  justify-self: center;
+  padding: 5px;
+}
+.itemh {
+  grid-area: d;
+  align-self: center;
+  justify-self: center;
+  padding: 5px;
+}
+
+.grid-Left {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  grid-area: 1 / col4-start / last-line / 3;
+  background-color: #DDDDDD;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 4px;
+}
+
+
+.Grid-containerH {
+  padding: 10px;()  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  height: 500px;
+  width: auto;
+  gap: 10px;
+  grid-template-areas:
+    ". . . . ."
+    ". . a a a"
+    ". . b b b"
+    ". . c c c"
+    ". . d d d"
+    ;
+  align-content:auto;
+  justify-content: end;
+
+
+}
+
+.itema {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+  cursor:pointer;
+  display: block;
+}
+.itemb {
+  grid-area: b;
+  align-self: center;
+  justify-self: center;
+  cursor:pointer;
+  display: block;
+}
+.itemc {
+  grid-area: c;
+  align-self: center;
+  justify-self: center;
+  cursor:pointer;
+  display: block;
+}
+.itemd {
+  grid-area: d;
+  align-self: center;
+  justify-self: center;
+  cursor:pointer;
+  display: block;
+}
+
+.grid-Rigth {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  grid-area: 1 / col4-start / last-line / 3;
+  background-color: #DDDDDD;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 4px;
+}
+
+@media screen and (max-heigth: 200px) {
+  .grid-Rigth {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 300px) {
+  .grid-container {
+    flex-direction: column;
+  }
+
+
+.body{
+  font-family: Garamond, serif;
+}
