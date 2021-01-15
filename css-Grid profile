@@ -211,7 +211,7 @@ z-index: 20;
     ". . c c c"
     ". . d d d"
     ;
-  align-content:auto;
+  align-content: center;
   justify-content: end;
 
 
@@ -258,7 +258,7 @@ z-index: 20;
   border-radius: 4px;
 }
 
-@media screen and (max-heigth: 200px) {
+@media screen and (max-width: 600px) {
   .grid-Rigth {
     -ms-flex: 50%;
     flex: 50%;
@@ -266,12 +266,38 @@ z-index: 20;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 1200px) {
   .grid-container {
     flex-direction: column;
   }
+}
 
 
 .body{
   font-family: Garamond, serif;
+}
+
+.footer {
+  grid-template-columns: auto auto;
+  grid-template-rows: 100%;
+  top: 1500px;
+  margin-top: 50px;
+  background-color: #f432;
+  grid-gap: 20px;
+  color: blue;
+}
+
+  .foot {
+  border-style: ridge;
+  border-color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.P1 {
+  color: #fff;
+}
+
+.para {
+  color: #fff;
 }
